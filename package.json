@@ -1,15 +1,15 @@
 {
-               "name": "ELSA_BOT-V2",
+               "name": "SHADOW_BOT-V2",
                "version": "4.0",
                "description": "Multi device whatsapp bot by Thushan.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name elsa",
-                "stop": "pm2 stop elsa-md"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name shadow",
+                "stop": "pm2 stop shadow-md"
                 },
-               "author": "Elgazar md",
+               "author": "asta md",
               "dependencies": {
                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
